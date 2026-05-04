@@ -6,3 +6,8 @@
 .trust-card{height:auto;min-height:190px;display:block;text-align:left;background:#fff;border:1px solid var(--line);color:#333}.trust-card strong{display:block;margin-bottom:8px}.trust-card ul{margin:0;padding-left:20px}.trust-card li{margin-bottom:6px}.small{font-size:13px;color:#555;line-height:1.45}
 
 .hero-photo{margin:16px 0;background:#fff;border:1px solid var(--line)}.hero-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.hero-photo figcaption{font-size:13px;color:#555;padding:8px 10px;background:#fff}
+.inline-photo{margin:18px 0;background:#fff;border:1px solid var(--line);box-shadow:0 10px 24px rgba(0,0,0,.06)}
+.inline-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.inline-photo figcaption{font-size:13px;color:#555;padding:8px 10px;background:#fff}
+.feature-photo{max-width:920px}
+.callout .inline-photo.compact{margin:10px 0 14px}
