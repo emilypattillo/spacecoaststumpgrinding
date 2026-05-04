@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://melbourneflstumpgrinding.com/sitemap.xml
