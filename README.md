@@ -17,7 +17,7 @@ Updated: 2026-05-04T18:52:54+00:00
 ## Launch checklist
 
 - Pivot homepage/title/meta/schema/canonical from Brevard/Palm Bay framing to Melbourne, FL primary positioning.
-- Placeholder phone `(321) 555-0198` is intentionally kept until Google Voice/call tracking is ready.
+- Active validation phone: Google Voice `(321) 294-3433`, controlled by Emily, added 2026-05-05.
 - Quote form currently uses FormSubmit routed to `thursday@emilypattillo.com`; confirm first-use FormSubmit email and later replace with real CRM/SMS routing if needed.
 - Canonical URLs, schema, robots, and sitemap have been set to `https://melbourneflstumpgrinding.com`; recheck after deploy.
 - Add local job photos or approved AI-generated images per `PHOTO-BRIEF.md`.
@@ -40,6 +40,11 @@ Updated: 2026-05-04T18:52:54+00:00
 - /contact.html
 
 ## Change log
+
+### 2026-05-05T03:13:23Z — Google Voice validation number added
+
+- Replaced the placeholder phone with Emily-controlled Google Voice number `(321) 294-3433` across public HTML pages, `tel:` links, schema telephone fields, and README documentation.
+- Purpose: early lead validation before moving to CallRail/WhatConverts/Twilio.
 
 ### 2026-05-05T02:36:17Z — Mobile-first CSS pass
 
