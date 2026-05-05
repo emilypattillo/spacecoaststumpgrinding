@@ -41,6 +41,12 @@ Updated: 2026-05-04T18:52:54+00:00
 
 ## Change log
 
+### 2026-05-05T03:21:30Z — Email field and replication SOP
+
+- Added an optional typed email field to the quote forms so form submissions can capture both phone and email follow-up.
+- Created the reusable Website Landlord launch SOP at `/root/.hermes/profiles/wednesday/artifacts/website-landlord/sops/website-landlord-rank-and-rent-launch-sop.md`.
+- Documented the FormSubmit activation requirement: submit a live test inquiry, confirm the activation email in Thursday, then verify a second test submission.
+
 ### 2026-05-05T03:13:23Z — Google Voice validation number added
 
 - Replaced the placeholder phone with Emily-controlled Google Voice number `(321) 294-3433` across public HTML pages, `tel:` links, schema telephone fields, and README documentation.

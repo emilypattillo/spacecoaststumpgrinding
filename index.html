@@ -108,7 +108,8 @@
 <input type="hidden" name="_next" value="https://melbourneflstumpgrinding.com/thank-you">
 <input type="hidden" name="source" value="melbourneflstumpgrinding.com">
       <div class="field"><label>Name *</label><input name="name" required></div>
-      <div class="field"><label>Phone Number *</label><input name="phone" required></div>
+      <div class="field"><label>Phone Number *</label><input name="phone" autocomplete="tel" required></div>
+      <div class="field"><label>Email</label><input type="email" name="email" autocomplete="email" placeholder="Best email for quote follow-up"></div>
       <div class="field"><label>City / Area *</label><input name="city" placeholder="Melbourne, West Melbourne, Palm Bay..." required></div>
       <div class="field"><label>Number of Stumps</label><select name="stumps"><option>1 stump</option><option>2-3 stumps</option><option>4+ stumps</option><option>Not sure</option></select></div>
       <div class="field"><label>Comment *</label><textarea name="comments" placeholder="Approximate stump size, access notes, and timing" required></textarea></div>
