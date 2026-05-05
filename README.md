@@ -65,3 +65,5 @@ Updated: 2026-05-04T18:52:54+00:00
 - Improved mobile conversion UX: visible horizontal nav chips instead of hidden nav, full-width quote/call buttons, fixed bottom call button on mobile, larger form touch targets, single-column content/cards by default, and responsive images.
 - Preserved desktop two-column hero/form layout and multi-column cards at wider viewports.
 - Verification performed: checked 12 HTML pages for viewport tags and missing local links/assets; no missing local references found.
+
+- 2026-05-05T06:14:30Z — Model-style content expansion: homepage expanded to 4,000+ useful words, six service-intent pages added, sitemap updated, and CTA class collision cleaned up after CTO/CMO review.
