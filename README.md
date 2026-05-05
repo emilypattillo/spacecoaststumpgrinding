@@ -1,8 +1,8 @@
-# Brevard Stump Grinding lead-gen site
+# Space Coast Stump Grinding Pro site
 
 Created: 2026-05-04T17:34:56+00:00
 
-Purpose: simple static SEO site for a Website Landlord / rank-and-rent test in Brevard County, FL. Original build started with Palm Bay; current launch direction is Melbourne, FL as the primary SEO/domain target with Space Coast held as a secondary/redirect brand asset.
+Purpose: simple static SEO site for a Website Landlord / rank-and-rent test in Brevard County, FL. Original build started with Palm Bay; current launch direction is Melbourne, FL as the primary SEO/domain target, with public branding updated to `Space Coast Stump Grinding Pro` so the site reads like a focused local operator rather than a directory or lead marketplace.
 
 ## Domain status
 
@@ -40,6 +40,12 @@ Updated: 2026-05-04T18:52:54+00:00
 - /contact.html
 
 ## Change log
+
+### 2026-05-05T03:40:12Z — Operator-style brand update
+
+- Updated public brand from `Melbourne FL Stump Grinding` to `Space Coast Stump Grinding Pro` across visible navigation, footer, page titles, metadata, and schema.
+- Shifted homepage and shared page language away from directory/lead-marketplace phrasing and toward a focused local operator voice while avoiding unsupported claims like fake reviews, addresses, licensing, or years in business.
+- Kept the canonical SEO/domain target as `https://melbourneflstumpgrinding.com` for the Melbourne search beachhead.
 
 ### 2026-05-05T03:21:30Z — Email field and replication SOP
 
