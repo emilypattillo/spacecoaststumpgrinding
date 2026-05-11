@@ -1,0 +1,3 @@
+# Consolidate retired Space Coast hostnames to the canonical Melbourne domain.
+https://spacecoaststumpgrinding.com/* https://melbourneflstumpgrinding.com/:splat 301
+https://www.spacecoaststumpgrinding.com/* https://melbourneflstumpgrinding.com/:splat 301
