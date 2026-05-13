@@ -136,3 +136,16 @@ textarea{height:104px;resize:vertical}
 .image-plan-section .service-photo{background:#fff;border:1px solid rgba(15,23,42,.10);border-radius:18px;overflow:hidden;box-shadow:0 12px 30px rgba(15,23,42,.08)}
 .image-plan-section .service-photo img{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;background:#e2e8f0}
 .image-plan-section .service-photo figcaption{font-size:.92rem;line-height:1.35;color:#334155;padding:.8rem .95rem}
+
+
+/* SOP v3 service-site polish */
+.trust-band{background:#fff;border-top:1px solid rgba(15,23,42,.08);border-bottom:1px solid rgba(15,23,42,.08);}
+.trust-band-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;padding:1rem 0;}
+.trust-band-item,.section .prose,.side-panel,.quote-card,.service-photo,.steps>div{border-radius:18px;box-shadow:0 12px 30px rgba(15,23,42,.08);}
+.trust-band-item{background:#fff;padding:1rem;border:1px solid rgba(15,23,42,.08);}
+.trust-band-item strong{display:block;color:#0f172a;margin-bottom:.25rem;}
+.hero{padding-top:clamp(3rem,7vw,5.5rem);padding-bottom:clamp(3rem,7vw,5rem);}
+.hero .lead{font-size:clamp(1.05rem,2vw,1.25rem);line-height:1.65;}
+.photo-grid{align-items:stretch;}
+.service-photo figcaption{font-size:.95rem;line-height:1.45;}
+@media (max-width:760px){.trust-band-grid{grid-template-columns:1fr}.hero{padding-top:2rem}.navlinks{gap:.45rem}}
