@@ -18,7 +18,7 @@ Updated: 2026-05-04T18:52:54+00:00
 
 - Pivot homepage/title/meta/schema/canonical from Brevard/Palm Bay framing to Melbourne, FL primary positioning.
 - Active validation phone: Google Voice `(321) 294-3433`, controlled by Emily, added 2026-05-05.
-- Quote form currently uses FormSubmit routed to `thursday@emilypattillo.com`; confirm first-use FormSubmit email and later replace with real CRM/SMS routing if needed.
+- Quote form currently uses FormSubmit routed to `info@melbourneflstumpgrinding.com`; confirm forwarding/notification delivery separately and later replace with real CRM/SMS routing if needed.
 - Canonical URLs, schema, robots, and sitemap have been set to `https://melbourneflstumpgrinding.com`; recheck after deploy.
 - Add local job photos or approved AI-generated images per `PHOTO-BRIEF.md`.
 - Configure `spacecoaststumpgrinding.com` as a 301 redirect to `melbourneflstumpgrinding.com` after hosting/DNS is set.

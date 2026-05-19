@@ -107,12 +107,15 @@ textarea{height:104px;resize:vertical}
   .links{width:auto;overflow:visible;gap:18px;padding-bottom:0}
   .links a{font-size:16px;background:transparent;border:0;border-radius:0;padding:0}
   .hero{padding:30px 0}
-  .hero-grid{grid-template-columns:minmax(0,1fr) 370px;gap:28px}
+  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(300px,360px);gap:22px;align-items:start}
   .hero h1{font-size:40px}
   .hero p{font-size:18px}
   .hero-actions{display:flex;flex-wrap:wrap}.hero-actions .btn{min-width:145px}
-  .hero-photo{max-width:680px}
-  .formbox{padding:20px;position:sticky;top:16px}
+  .hero-photo{grid-column:1 / -1;max-width:680px;margin:0}
+  .formbox{padding:18px;position:relative;top:auto}
+  .formbox h2{font-size:21px}
+  .form-intro{margin-top:-2px;margin-bottom:12px}
+  .formbox textarea{height:84px}
   .section{padding:34px 0}
   .cards,.cards.three{grid-template-columns:repeat(3,1fr)}
   .split{grid-template-columns:minmax(0,1.4fr) minmax(280px,.9fr);gap:24px}
@@ -127,6 +130,11 @@ textarea{height:104px;resize:vertical}
   .small-photo{min-height:180px}
   .mobile-call{display:none}
   .footer{padding-bottom:28px}
+}
+
+@media (min-width:1100px){
+  .hero-grid{grid-template-columns:minmax(0,.95fr) minmax(300px,350px) minmax(250px,.8fr);gap:20px}
+  .hero-photo{grid-column:auto;max-width:100%}
 }
 
 /* Portfolio image expansion: six-image local-service gallery */
