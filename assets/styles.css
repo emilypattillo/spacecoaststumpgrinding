@@ -115,7 +115,11 @@ textarea{height:104px;resize:vertical}
   .formbox{padding:18px;position:relative;top:auto}
   .formbox h2{font-size:21px}
   .form-intro{margin-top:-2px;margin-bottom:12px}
-  .formbox textarea{height:84px}
+  .formbox form{display:grid;grid-template-columns:1fr 1fr;column-gap:10px;row-gap:9px}
+  .formbox .field{margin-bottom:0}
+  .formbox .field:nth-of-type(6),.formbox button,.formbox p.small{grid-column:1 / -1}
+  .formbox input,.formbox select{min-height:42px;padding:9px}
+  .formbox textarea{height:76px;min-height:76px;padding:9px}
   .section{padding:34px 0}
   .cards,.cards.three{grid-template-columns:repeat(3,1fr)}
   .split{grid-template-columns:minmax(0,1.4fr) minmax(280px,.9fr);gap:24px}
