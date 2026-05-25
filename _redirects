@@ -3,3 +3,7 @@ https://spacecoaststumpgrinding.com/* https://melbourneflstumpgrinding.com/:spla
 https://www.spacecoaststumpgrinding.com/* https://melbourneflstumpgrinding.com/:splat 301
 /README.md /404.html 404
 /PHOTO-BRIEF.md /404.html 404
+/.git/* /404.html 404
+/site-spec.json /404.html 404
+/command/* /404.html 404
+/command /404.html 404
